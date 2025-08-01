@@ -115,6 +115,7 @@ module Brcobranca
     autoload :Safra,         'brcobranca/boleto/safra'
     autoload :Citibank,      'brcobranca/boleto/citibank'
     autoload :Ailos,         'brcobranca/boleto/ailos'
+    autoload :Kanastra,         'brcobranca/boleto/kanastra'
 
     # Módulos para classes de template
     module Template
@@ -144,6 +145,7 @@ module Brcobranca
       autoload :Credisis,      'brcobranca/retorno/cnab400/credisis'
       autoload :Santander,     'brcobranca/retorno/cnab400/santander'
       autoload :BancoBrasil,   'brcobranca/retorno/cnab400/banco_brasil'
+      autoload :Kanastra,   'brcobranca/retorno/cnab400/kanastra'
     end
 
     module Cnab240
@@ -176,6 +178,7 @@ module Brcobranca
       autoload :BancoBrasilia, 'brcobranca/remessa/cnab400/banco_brasilia'
       autoload :Unicred,       'brcobranca/remessa/cnab400/unicred'
       autoload :Credisis,      'brcobranca/remessa/cnab400/credisis'
+      autoload :Kanastra,      'brcobranca/remessa/cnab400/kanastra'
     end
 
     module Cnab444
